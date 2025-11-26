@@ -251,6 +251,14 @@
   padding-left: 0px;
 }
 
+#silktide-modal .switch {
+  padding-left: 0px;
+}
+
+#silktide-modal label.switch {
+  padding-left: 0px;
+}
+
 #silktide-modal {
   display: none;
   pointer-events: auto;
