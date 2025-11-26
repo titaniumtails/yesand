@@ -115,7 +115,7 @@
 /* --------------------------------
   Banner
 -------------------------------- */
-#silktide-banner {
+/* #silktide-banner {
   font-family: var(--fontFamily);
   color: var(--textColor);
   background-color: var(--backgroundColor);
@@ -215,7 +215,7 @@
   align-items: center;
   justify-content: center;
   fill: var(--primaryColor); /* passed down to svg > path */
-  margin-left: auto;
+/*  margin-left: auto;
   width: 48px;
   height: 48px;
 }
@@ -242,11 +242,15 @@
   align-items: center;
   justify-content: space-between;
   flex-grow: 1;
-}
+} */
 
 /* --------------------------------
   Modal
 -------------------------------- */
+#silktide-modal label {
+  padding-left: 0px;
+}
+
 #silktide-modal {
   display: none;
   pointer-events: auto;
