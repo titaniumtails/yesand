@@ -115,7 +115,7 @@
 /* --------------------------------
   Banner
 -------------------------------- */
-/* #silktide-banner {
+#silktide-banner {
   font-family: var(--fontFamily);
   color: var(--textColor);
   background-color: var(--backgroundColor);
@@ -215,7 +215,7 @@
   align-items: center;
   justify-content: center;
   fill: var(--primaryColor); /* passed down to svg > path */
-/*  margin-left: auto;
+  margin-left: auto;
   width: 48px;
   height: 48px;
 }
@@ -247,18 +247,6 @@
 /* --------------------------------
   Modal
 -------------------------------- */
-#silktide-modal label {
-  padding-left: 0px;
-}
-
-#silktide-modal .switch {
-  padding-left: 0px;
-}
-
-#silktide-modal label.switch {
-  padding-left: 0px;
-}
-
 #silktide-modal {
   display: none;
   pointer-events: auto;
@@ -578,4 +566,17 @@
     opacity: 1;
     transform: translate(0px, 0px);
   }
+}
+
+/* WEBFLOW OVERRIDES */
+#silktide-modal label {
+  padding-left: 0px;
+}
+
+#silktide-modal .switch {
+  padding-left: 0px;
+}
+
+#silktide-modal label.switch {
+  padding-left: 0px;
 }
